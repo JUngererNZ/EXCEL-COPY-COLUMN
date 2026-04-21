@@ -1,9 +1,9 @@
 
 # =========================
 # Configuration
-# input_file = Path(r"C:\Users\Jason\Projects\EXCEL-COPY-COLUMN\BARTRAC - KCC TRACKING AS OF 31-12-2025.xlsx")
-# sheet_name = "ENROUTE SITE"
-# header_row = 6
+# input_file = Path(r"C:\Users\Jason\Projects\EXCEL-COPY-COLUMN\BARTRAC - CONGO TRACKING 31-12-2025.xlsx")
+# sheet_name = "CURRENT SHIPMENTS "
+# header_row = 1
 
 import re
 from copy import copy
@@ -15,9 +15,9 @@ from openpyxl.utils import get_column_letter
 # =========================
 # Configuration
 # =========================
-input_file = Path(r"C:\Users\Jason\Projects\EXCEL-COPY-COLUMN\BARTRAC - KCC TRACKING AS OF 31-12-2025.xlsx")
-sheet_name = "ENROUTE SITE"
-header_row = 6
+input_file = Path(r"C:\Users\Jason\Projects\EXCEL-COPY-COLUMN\BARTRAC - CONGO TRACKING 31-12-2025.xlsx")
+sheet_name = "CURRENT SHIPMENTS "
+header_row = 1
 
 # Header format: COMMENTS DD-MM-YYYY
 header_pattern = re.compile(r"^COMMENTS \d{2}-\d{2}-\d{4}$")
